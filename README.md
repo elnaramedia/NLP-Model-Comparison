@@ -23,12 +23,15 @@ sample_df = pd.read_excel(r"C:name_of_your_repository\random_sample310.xlsx")
 ```
 
 **Step 2**
+
 Randomly selected sample statements were manually coded for positive and negative sentiment. A neutral category was not included because not all NLP models support it; therefore, the analysis was limited to two sentiment classes. Additionally, a single coder labelled statements, since the purpose of manual coding was model validation rather than primary analysis. However, if you have a partner, you can both label statements manually and then compare them to each other to achieve an 80% reliability score. 
 
 **Step 3**
+
 Now we need to prepare the 334 manually labelled statements for the analysis. The first step is to clean that data, remove stopwords, lemmatise sentences, and remove punctuations and numbers. Codes are in the NLP_model_comparison.py file.
 
 **Step 4**
+
 Now use the cleaned sample statements to test against 43 NLP models. You can expand the list to suit your preferences. As success metrics, we recorded the accuracy and F1 scores for each model, aligned with our manual sentiment analysis. 
 
 In our case, the Robustly optimized BERT approach (RoBERTa) Large English library had the highest F1-Score (92%) and accuracy (92%) based on our data. Therefore, we selected RoBERTa for our sentiment analysis as it had the highest fit scores.
