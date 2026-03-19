@@ -36,4 +36,9 @@ In our case, the Robustly optimized BERT approach (RoBERTa) Large English librar
 **Visualisation of success metrics**
 
 In our study, we used a Radar Chart to visualise the results of success metrics in an appealing way. All the codes are in the NLP_comparison_radar_chart.py file. You can adjust the positions of some labels to avoid overlapping in names. All these instructions are described in the code. The result will look like this:
-<img width="468" height="630" alt="image" src="https://github.com/user-attachments/assets/a3caf433-aba3-4f73-a0b4-c7da5a6b5e61" />
+
+<div align="center">
+  <img width="600" alt="Visualisation of the performance of 43 models, highlighting F1 and accuracy scores" src="https://github.com/elnaramedia/NLP-Model-Comparison/blob/2cb092392c9ba432a46155461b18a5614501ea8b/Model%20Performance%20radar%20chart.png" />
+</div>
+
+
