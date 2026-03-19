@@ -48,7 +48,7 @@ In our study, we used a Radar Chart to visualise the results of success metrics 
 
 Traditionally in sentiment analysis, researchers use a specific one NLP Model without justifying the selection. Our study showed that given the training data biase models hold, can potentially mislead the results and result in incorrect finidngs. Therefore, we argue that for sentiment analysis, researchers should identy the best NLP Model that fits their dataset instead of chosing one either widely used model. The questin is how do you know that this model wokrs well for given the nature of your dataset. before running any statistical analysis, it's a muct to run assumptions whether the data fits the statistical analysis and model. However, researchers have been missing that step widely in sentiment analysis. Therefore, we strongly hope future studies will consider following the steps we proposaed. 
 
-For any questions or inquiries, please reach out to Elnara at <a/ href="emammado@purdue.edu">emammado@purdue.edu<a/>
+For any questions or inquiries, please reach out to Elnara at emammado@purdue.edu
 
 **APA 7 Citation:**
 
