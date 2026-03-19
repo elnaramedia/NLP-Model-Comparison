@@ -6,6 +6,7 @@ Second, since NLP models are pre-trained, they can have training data bias. For 
 Here are the steps to define the best NLP model for your dataset. All code for these steps is in the NLP_model_comparison.py file, and each step is marked with a comment so you know where the code starts.
 
 **Step 1**
+
 To determine the best NLP model for contextual-level sentiment analysis, given the overall sample size, you need to calculate how many samples are required for manual testing. We used <a href="https://ask.ifas.ufl.edu/publication/PD006">Equation 6 described by Israel (1992)</a>. Based on the calculation, we randomly selected 334 statements from the data. You can use the code below in Python to select samples. It's also in the NLP_model_comparison.py file. 
 
 ```sh
