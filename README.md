@@ -3,7 +3,7 @@ This method was developed to address challenges encountered when applying NLP mo
 
 Second, since NLP models are pre-trained, they can have training data bias. For example, in our data, the term “dictator,” used by a student to describe their instructor, was considered a neutral sentence by most of the models we used. However, this interpretation was incorrect for our responses to the open-ended question. You can read more about the nature of the dataset in <a href= "https://www.mdpi.com/2227-7102/16/3/457">the paper published in Education Sciences</a>. 
 
-Here are the steps to define the best NLP model for your dataset. All code for these steps is in the NLP_model_comparison.py file, and each step is marked with a comment so you know where the code starts.
+Here are the steps to define the best NLP model for your dataset. All code for these steps is in the NLP_model_comparison.py file, and each step is marked with a comment indicating where the code starts.
 
 **Step 1**
 
@@ -24,7 +24,7 @@ sample_df = pd.read_excel(r"C:name_of_your_repository\random_sample310.xlsx")
 
 **Step 2**
 
-Randomly selected sample statements were manually coded for positive and negative sentiment. A neutral category was not included because not all NLP models support it; therefore, the analysis was limited to two sentiment classes. Additionally, a single coder labelled statements, since the purpose of manual coding was model validation rather than primary analysis. However, if you have a partner, you can both label statements manually and then compare them to each other to achieve an 80% reliability score. 
+Randomly selected sample statements were manually coded for positive and negative sentiment. A neutral category was not included because not all NLP models support it; therefore, the analysis was limited to two sentiment classes. Additionally, a single coder labelled statements, since the purpose of manual coding was model validation rather than primary analysis. However, if you have a partner, you can both label statements manually and then compare them to achieve an 80% reliability score.
 
 **Step 3**
 
@@ -44,4 +44,11 @@ In our study, we used a Radar Chart to visualise the results of success metrics 
   <img width="600" alt="Visualisation of the performance of 43 models, highlighting F1 and accuracy scores" src="https://github.com/elnaramedia/NLP-Model-Comparison/blob/2cb092392c9ba432a46155461b18a5614501ea8b/Model%20Performance%20radar%20chart.png" />
 </div>
 
+**Conclusion**
+
+Traditional qualitative data analysis often focuses solely on identifying overarching themes, without revealing how frequently each theme was discussed. As a result, audiences may miss which topics were most important or emphasised by participants. By incorporating text mining techniques, researchers can quantify the frequency of each theme, providing a more nuanced understanding of participants’ priorities and highlighting which issues were most prominent in the data.
+
+**APA 7 Citation:**
+
+Mammadova, E., & Topalgokceli, E. (2025). Identifying the Best NLP Model for the Sentiment Analysis that Fit for the Dataset (v1.1). Zenodo.
 
