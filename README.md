@@ -10,16 +10,16 @@ Here are the steps to define the best NLP model for your dataset. All code for t
 To determine the best NLP model for contextual-level sentiment analysis, given the overall sample size, you need to calculate how many samples are required for manual testing. We used <a href="https://ask.ifas.ufl.edu/publication/PD006">Equation 6 described by Israel (1992)</a>. Based on the calculation, we randomly selected 334 statements from the data. You can use the code below in Python to select samples. It's also in the NLP_model_comparison.py file. 
 
 ```sh
-# Select a random sample of 310 rows
-sample_df = xt.sample(n=310, random_state=42)
+# Select a random sample of 334 rows
+sample_df = xt.sample(n=334, random_state=42)
 
 sample_df['your_data'] = np.nan
 sample_df.drop('Study ID', axis=1, inplace=True) #Study ID is a unique number for each participant  
 
 # Save the sample to a new CSV file if needed
-# sample_df.to_excel(r"C:name_of_your_repository\random_sample310.xlsx", index=False)
+# sample_df.to_excel(r"C:name_of_your_repository\random_sample334.xlsx", index=False)
 
-sample_df = pd.read_excel(r"C:name_of_your_repository\random_sample310.xlsx")
+sample_df = pd.read_excel(r"C:name_of_your_repository\random_sample334.xlsx")
 ```
 
 **Step 2**
