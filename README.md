@@ -54,5 +54,5 @@ For any questions or inquiries, please reach out to Elnara at emammado@purdue.ed
 
 **APA 7 Citation:**
 
-Mammadova, E., & Topalgokceli, E. (2025). Selecting the Best NLP Model for Dataset-Specific Sentiment Analysis (v1.1). Zenodo.
+Mammadova, E., & Topalgokceli, E. (2025). Dataset-Specific Selection of NLP Model for Sentiment Analysis (v1.1). Zenodo.
 
