@@ -54,5 +54,6 @@ For any questions or inquiries, please reach out to Elnara at emammado@purdue.ed
 
 **APA 7 Citation:**
 
-Mammadova, E., & Topalgokceli, E. (2025). Dataset-Specific Selection of NLP Model for Sentiment Analysis (v1.1). Zenodo.
+Mammadova, E., Mentzer, N., Waitoller, F., & Traynor, A. (2026). A Comparative NLP-BASED Sentiment Analysis of Basic Psychological Needs and Engagement among Students with and without Disability Accommodations in Design Thinking Course in HyFlex Settings. Education Sciences, 16(3), 457. https://doi.org/10.3390/educsci16030457
+
 
